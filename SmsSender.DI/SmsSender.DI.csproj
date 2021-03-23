@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SmsSender.BLL\SmsSender.BLL.csproj" />
+    <ProjectReference Include="..\SmsSender.DAL\SmsSender.DAL.csproj" />
+    <ProjectReference Include="..\SmsSender.Shared\SmsSender.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
